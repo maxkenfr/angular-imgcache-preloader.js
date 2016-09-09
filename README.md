@@ -1,4 +1,4 @@
-angular-imgcache.js
+angular-imgcache-preloader.js
 ================
 
 Simple [imgcache.js](https://github.com/chrisben/imgcache.js) wrapper and image preloader for AngularJS, can be user with Ionic/Cordova/Phonegap.
