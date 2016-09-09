@@ -10,7 +10,8 @@
   "keywords": [
     "AngularJS",
     "imgcache.js",
-    "JavaScript"
+    "JavaScript",
+    "preload"
   ],
   "license": "MIT",
   "ignore": [
