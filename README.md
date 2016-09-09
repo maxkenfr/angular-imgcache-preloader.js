@@ -1,14 +1,14 @@
 angular-imgcache.js
 ================
 
-Simple [imgcache.js](https://github.com/chrisben/imgcache.js) wrapper for AngularJS, can be user with Ionic/Cordova/Phonegap.
+Simple [imgcache.js](https://github.com/chrisben/imgcache.js) wrapper and image preloader for AngularJS, can be user with Ionic/Cordova/Phonegap.
 
 ## Installation
 
 Install via bower
 
 ```sh
-bower install --save angular-imgcache.js
+bower install --save angular-imgcache-preloader.js
 ```
 
 Link library and dependencies
@@ -16,7 +16,7 @@ Link library and dependencies
 ```html
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/imgcache.js/js/imgcache.js"></script>
-<script src="bower_components/angular-imgcache.js/angular-imgcache.js"></script>
+<script src="bower_components/angular-imgcache-preloader.js/angular-imgcache-preloader.js"></script>
 ```
 
 Load module
@@ -115,4 +115,10 @@ Or set elements `background-image` with `ic-bg` attribute.
 
 ```html
 <div img-cache ic-bg="{{imgUrl}}" ></div>
+```
+
+We can set default image for preloading with `ic-default` attribute.
+
+```html
+<div img-cache ic-src="{{imgUrl}}" ic-default="img/backrounds/default.jpg"></div>
 ```

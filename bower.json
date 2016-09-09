@@ -1,12 +1,12 @@
 {
-  "name": "angular-imgcache",
-  "main": "angular-imgcache.js",
-  "version": "0.1.0",
-  "homepage": "https://github.com/jBenes/angular-imgcache",
+  "name": "angular-imgcache-preloader",
+  "main": "angular-imgcache-preloader.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/maxkenfr/angular-imgcache-preloader.js",
   "authors": [
-    "Benes <benes@kodarna.cz>"
+    "MaxKen"
   ],
-  "description": "Simple imgcache.js wrapper for AngularJS",
+  "description": "Simple imgcache.js wrapper and image preloader for for AngularJS",
   "keywords": [
     "AngularJS",
     "imgcache.js",
